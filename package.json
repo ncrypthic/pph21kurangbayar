@@ -1,10 +1,11 @@
 {
   "name": "hitung_kurang_pph21",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "node index.js",
+    "build": "tsc index.ts"
   },
   "dependencies": {
     "@types/node": "^17.0.21",

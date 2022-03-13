@@ -2,11 +2,14 @@
 
 To help Indonesian worker calculating their income tax, I create this script.
 
-How to run
+## How to run
+
+This required nodejs & npm installed.
 
 ```sh
-$ yarn install
-$ yarn start
+$ git clone github.com/ncrypthic/pph21kurangbayar
+$ npm install
+$ npm run start
 ```
 
 You will need your A1 form provided by your employer(s). This calculation is
